@@ -123,6 +123,7 @@
                                         <rend xml:id="rend-0000000503923419" fontsize="80.00%" fontweight="bold">La prima parte senza replica.</rend>
                                     </tempo>
                                     <tempo xml:id="tempo-0000000547458698" place="above" staff="1" startid="#chord-0000000133822039" midi.bpm="100">Allegretto.</tempo>
+                                    <dir xml:id="dir-0000001589587528" place="below" staff="1" tstamp="1.000000">dolce</dir>
                                     <slur xml:id="slur-0000000731631064" startid="#chord-0000000133822039" endid="#note-0000000424318798" curvedir="above"/>
                                 </measure>
                                 <measure xml:id="measure-0000001000287134" n="1">
@@ -203,7 +204,6 @@
                                             <note xml:id="note-0000000010468113" dur="4" oct="2" pname="a" stem.dir="up"/>
                                         </layer>
                                     </staff>
-                                    <tie xml:id="tie-0000001329909990" startid="#note-0000000903946524" endid="#note-0000001104022064"/>
                                     <tie xml:id="tie-0000000629652598" startid="#note-0000001764584924" endid="#note-0000000385229754"/>
                                 </measure>
                                 <measure xml:id="measure-0000001919285817" n="4">
@@ -331,7 +331,6 @@
                                             <note xml:id="note-0000000421813210" dur="4" oct="2" pname="a" stem.dir="up"/>
                                         </layer>
                                     </staff>
-                                    <tie xml:id="tie-0000002099058502" startid="#note-0000000683200252" endid="#note-0000001151454734"/>
                                 </measure>
                                 <sb xml:id="sb-0000001110087673"/>
                                 <measure xml:id="measure-0000000106049634" n="9">
@@ -585,7 +584,7 @@
                                             </beam>
                                         </layer>
                                         <layer xml:id="layer-0000001653182164" n="2">
-                                            <rest xml:id="rest-0000000889205462" dur="8" ploc="g" oloc="4"/>
+                                            <rest xml:id="rest-0000000889205462" dur="8" ploc="c" oloc="4"/>
                                             <note xml:id="note-0000000537500361" dots="1" dur="4" oct="4" pname="e" stem.dir="down"/>
                                         </layer>
                                     </staff>
@@ -755,7 +754,7 @@
                                                 <note xml:id="note-0000001716192174" dur="32" oct="5" pname="d" stem.dir="down"/>
                                             </beam>
                                             <beam xml:id="beam-0000001189005561">
-                                                <tuplet xml:id="tuplet-0000001281128392" num="6" numbase="4" bracket.visible="false">
+                                                <tuplet xml:id="tuplet-0000001281128392" num="6" numbase="4" num.place="above" bracket.visible="false">
                                                     <note xml:id="note-0000001253839522" dur="32" oct="5" pname="e" stem.dir="down"/>
                                                     <note xml:id="note-0000000023818243" dur="32" oct="5" pname="f" stem.dir="down" accid.ges="s"/>
                                                     <note xml:id="note-0000000003600154" dur="32" oct="5" pname="g" stem.dir="down" accid.ges="s"/>
@@ -1728,7 +1727,7 @@
                                                 <note xml:id="note-0000000890299997" oct="5" pname="e"/>
                                             </chord>
                                         </beam>
-                                        <chord xml:id="chord-0000001867779367" dur="4" stem.dir="up">
+                                        <chord xml:id="chord-0000001867779367" dur="4" stem.dir="down">
                                             <note xml:id="note-0000000179147629" oct="4" pname="f" accid.ges="s"/>
                                             <note xml:id="note-0000001999352970" oct="5" pname="f" accid.ges="s"/>
                                         </chord>
@@ -1756,7 +1755,7 @@
                                 </staff>
                                 <dynam xml:id="dynam-0000001753480930" place="below" staff="1" tstamp="1.500000" vgrp="40">sf</dynam>
                                 <slur xml:id="slur-0000000942134674" startid="#chord-0000000970748819" endid="#chord-0000002073525076" curvedir="below"/>
-                                <slur xml:id="slur-0000001060536587" startid="#chord-0000000970748819" endid="#chord-0000002073525076" curvedir="above"/>
+                                <slur xml:id="slur-0000001060536587" startid="#note-0000000324147609" endid="#note-0000000371328816" curvedir="above"/>
                             </measure>
                             <measure xml:id="measure-0000001116167268" right="dbl" metcon="false" n="48">
                                 <staff xml:id="staff-0000000998302153" n="1">
@@ -1880,7 +1879,7 @@
                                             <note xml:id="note-0000000643233462" dur="8" oct="3" pname="g" stem.dir="up" accid.ges="s"/>
                                             <note xml:id="note-0000001827833656" dur="8" oct="4" pname="e" stem.dir="up"/>
                                         </beam>
-                                        <rest xml:id="rest-0000000646686057" dur="8"/>
+                                        <rest xml:id="rest-0000000646686057" dur="8" ploc="a" oloc="3"/>
                                         <note xml:id="note-0000000437822532" dur="8" oct="3" pname="a" stem.dir="up"/>
                                     </layer>
                                     <layer xml:id="layer-0000000984665539" n="2">
@@ -2169,8 +2168,12 @@
                                             <note xml:id="note-0000000203055706" dur="16" oct="2" pname="b" stem.dir="up"/>
                                             <note xml:id="note-0000000405735659" dur="8" oct="2" pname="a" stem.dir="up"/>
                                         </beam>
-                                        <rest xml:id="rest-0000000938641588" dur="8"/>
+                                        <rest xml:id="rest-0000000938641588" dur="8" ploc="a" oloc="3"/>
                                         <note xml:id="note-0000000334298654" dur="8" oct="3" pname="a" stem.dir="up"/>
+                                    </layer>
+                                    <layer xml:id="layer-0000002126844845" n="2">
+                                        <space xml:id="space-0000001016005600" dur="4"/>
+                                        <rest xml:id="rest-0000001363641903" dur="4" ploc="b" oloc="2"/>
                                     </layer>
                                 </staff>
                                 <slur xml:id="slur-0000000740257226" startid="#note-0000000334298654" endid="#note-0000002130325409" curvedir="above"/>
@@ -2250,7 +2253,7 @@
                                             <note xml:id="note-0000000097139637" dur="8" oct="3" pname="g" stem.dir="up" accid.ges="s"/>
                                             <note xml:id="note-0000002130325409" dur="8" oct="4" pname="e" stem.dir="up"/>
                                         </beam>
-                                        <rest xml:id="rest-0000001531786279" dur="8"/>
+                                        <rest xml:id="rest-0000001531786279" dur="8" ploc="a" oloc="3"/>
                                         <note xml:id="note-0000000698030917" dur="8" oct="3" pname="a" stem.dir="up"/>
                                     </layer>
                                     <layer xml:id="layer-0000001884902359" n="2">
@@ -2338,6 +2341,7 @@
                                     </layer>
                                     <layer xml:id="layer-0000000506643031" n="2">
                                         <note xml:id="note-0000000376761662" dur="8" oct="3" pname="e" stem.dir="down"/>
+                                        <rest xml:id="rest-0000000727289772" dur="8" ploc="d" oloc="3"/>
                                     </layer>
                                 </staff>
                                 <dynam xml:id="dynam-0000002106376894" place="below" staff="1" tstamp="2.500000" vgrp="40">p</dynam>
@@ -3516,8 +3520,9 @@
                                     </tempo>
                                     <dynam xml:id="dynam-0000001600880267" place="below" staff="1" tstamp="1.500000" vgrp="80">cresc.</dynam>
                                     <tie xml:id="tie-0000002023371588" startid="#note-0000000865911380" endid="#note-0000001254852157"/>
-                                    <dynam xml:id="dynam-0000001611708096" place="above" staff="2" tstamp="1.000000" vgrp="200">p</dynam>
+                                    <dynam xml:id="dynam-0000001611708096" place="below" staff="1" tstamp="1.000000" vgrp="80">p</dynam>
                                     <slur xml:id="slur-0000000641143541" startid="#note-0000001830711058" endid="#note-0000000028477898" curvedir="above"/>
+                                    <slur xml:id="slur-0000000159307845" startid="#note-0000001869533756" endid="#note-0000001944382781"/>
                                 </measure>
                                 <measure xml:id="measure-0000001402729271" n="86">
                                     <staff xml:id="staff-0000000326656189" n="1">
@@ -3581,9 +3586,9 @@
                                             <note xml:id="note-0000000630774557" dur="2" oct="2" pname="e" stem.dir="down"/>
                                         </layer>
                                     </staff>
-                                    <dynam xml:id="dynam-0000001003792705" place="below" staff="1" tstamp="1.000000" vgrp="40">f</dynam>
+                                    <dynam xml:id="dynam-0000001003792705" place="below" staff="1" tstamp="1.000000" vgrp="80">f</dynam>
                                     <slur xml:id="slur-0000001214672346" startid="#note-0000000810328348" endid="#note-0000000344631144" curvedir="above"/>
-                                    <dynam xml:id="dynam-0000000738561506" place="below" staff="1" tstamp="1.875000" vgrp="40">sf</dynam>
+                                    <dynam xml:id="dynam-0000000738561506" place="below" staff="1" tstamp="1.875000" vgrp="80">sf</dynam>
                                     <slur xml:id="slur-0000001418475759" startid="#note-0000000874045210" endid="#note-0000001485429287" curvedir="above"/>
                                 </measure>
                                 <measure xml:id="measure-0000001112630234" n="88">
@@ -3629,9 +3634,9 @@
                                             <note xml:id="note-0000001272032861" dur="2" oct="2" pname="c" stem.dir="down" accid.ges="s"/>
                                         </layer>
                                     </staff>
-                                    <dynam xml:id="dynam-0000001135547881" place="below" staff="1" tstamp="1.000000" vgrp="40">ff</dynam>
+                                    <dynam xml:id="dynam-0000001135547881" place="below" staff="1" tstamp="1.000000" vgrp="80">ff</dynam>
                                     <slur xml:id="slur-0000001094384901" startid="#note-0000000914921003" endid="#note-0000000085065876" curvedir="above"/>
-                                    <slur xml:id="slur-0000000535977083" startid="#note-0000000376885205" endid="#note-0000000363987260" curvedir="above"/>
+                                    <slur xml:id="slur-0000000535977083" startid="#note-0000000376885205" endid="#note-0000000775162245" curvedir="above"/>
                                     <tie xml:id="tie-0000000164022738" startid="#note-0000002125388648" endid="#note-0000001704675783"/>
                                     <slur xml:id="slur-0000001508638465" startid="#note-0000002125388648" endid="#note-0000002141127160" curvedir="above"/>
                                 </measure>
@@ -3771,7 +3776,7 @@
                                     </staff>
                                     <dynam xml:id="dynam-0000001597115117" place="below" staff="1" tstamp="1.000000" vgrp="40">f</dynam>
                                     <slur xml:id="slur-0000001566845099" startid="#note-0000001531807434" endid="#note-0000001226867110" curvedir="above"/>
-                                    <dynam xml:id="dynam-0000000751626834" place="below" staff="1" tstamp="1.875000" vgrp="40">sf</dynam>
+                                    <dynam xml:id="dynam-0000000751626834" place="below" staff="1" tstamp="2.000000" vgrp="40">sf</dynam>
                                     <slur xml:id="slur-0000001834039013" startid="#note-0000002136743295" endid="#note-0000001050076405" curvedir="above"/>
                                 </measure>
                                 <measure xml:id="measure-0000000613527789" n="93">
@@ -3948,7 +3953,7 @@
                                         <layer xml:id="layer-0000001383289575" n="1">
                                             <note xml:id="note-0000000289924603" dur="8" oct="4" pname="c" stem.dir="up" accid.ges="s"/>
                                             <clef xml:id="clef-0000000014829620" shape="F" line="4"/>
-                                            <rest xml:id="rest-0000000133320288" dur="8"/>
+                                            <rest xml:id="rest-0000000133320288" dur="8" ploc="a" oloc="3"/>
                                             <beam xml:id="beam-0000000888636595">
                                                 <note xml:id="note-0000001713970927" dur="8" oct="3" pname="a" stem.dir="up"/>
                                                 <note xml:id="note-0000000363729231" dur="8" oct="3" pname="g" stem.dir="up">
@@ -4093,7 +4098,6 @@
                                     </staff>
                                     <dynam xml:id="dynam-0000001971216769" place="below" staff="1" tstamp="1.000000" vgrp="40">f</dynam>
                                     <slur xml:id="slur-0000000801364344" startid="#note-0000000774537506" endid="#note-0000001611253530" curvedir="above"/>
-                                    <dynam xml:id="dynam-0000000024596070" place="below" staff="1" tstamp="1.875000" vgrp="40">sf</dynam>
                                     <slur xml:id="slur-0000000207497072" startid="#note-0000001018054895" endid="#note-0000000253123028" curvedir="above"/>
                                 </measure>
                                 <measure xml:id="measure-0000000073626889" n="102">
@@ -4180,6 +4184,7 @@
                                             <note xml:id="note-0000001731126923" dur="4" oct="2" pname="e" stem.dir="down"/>
                                         </layer>
                                     </staff>
+                                    <slur xml:id="slur-0000001255996645" startid="#note-0000001784039122" endid="#note-0000001421407910"/>
                                 </measure>
                                 <measure xml:id="measure-0000000195975929" right="rptend" metcon="false" n="104">
                                     <staff xml:id="staff-0000000429907099" n="1">
@@ -4493,7 +4498,7 @@
                                             </note>
                                         </layer>
                                     </staff>
-                                    <dynam xml:id="dynam-0000001373391192" place="below" staff="1" tstamp="2.000000" vgrp="94">decresc.</dynam>
+                                    <dynam xml:id="dynam-0000001373391192" place="below" staff="1" tstamp="2.125" tstamp2="1m+3" extender="true" vgrp="94">decresc.</dynam>
                                 </measure>
                                 <sb xml:id="sb-0000000293702181"/>
                                 <measure xml:id="measure-0000001517246742" n="113">
@@ -4577,7 +4582,7 @@
                                                 </note>
                                                 <note xml:id="note-0000000508126065" dur="16" oct="4" pname="b" stem.dir="up"/>
                                             </beam>
-                                            <rest xml:id="rest-0000001679793983" dur="16" ploc="c" oloc="4"/>
+                                            <rest xml:id="rest-0000001679793983" dur="16" ploc="b" oloc="4"/>
                                             <beam xml:id="beam-0000001477448819">
                                                 <note xml:id="note-0000000128890672" dur="16" oct="4" pname="a" stem.dir="up">
                                                     <accid xml:id="accid-0000001602008128" accid="n"/>
@@ -4616,7 +4621,7 @@
                                                 </note>
                                                 <note xml:id="note-0000000513720988" dur="16" oct="4" pname="g" stem.dir="up" accid.ges="s"/>
                                             </beam>
-                                            <rest xml:id="rest-0000001039901878" dur="16" ploc="e" oloc="4"/>
+                                            <rest xml:id="rest-0000001039901878" dur="16" ploc="d" oloc="5"/>
                                             <beam xml:id="beam-0000001408944260">
                                                 <note xml:id="note-0000001971485998" dur="16" oct="5" pname="c" stem.dir="up" accid.ges="s"/>
                                                 <note xml:id="note-0000001142767673" dur="16" oct="5" pname="c" stem.dir="up" accid.ges="s"/>
@@ -4719,7 +4724,6 @@
                                     </staff>
                                     <slur xml:id="slur-0000000886014170" startid="#note-0000001460755582" endid="#note-0000001415054413" curvedir="above"/>
                                     <dynam xml:id="dynam-0000000662039192" place="below" staff="1" tstamp="2.250000" tstamp2="2m+2.0000" extender="true" vgrp="94">cresc.</dynam>
-                                    <slur xml:id="slur-0000000374201065" startid="#note-0000000749173479" endid="#note-0000000590209809" curvedir="below"/>
                                     <slur xml:id="slur-0000001281630265" startid="#chord-0000001392803795" endid="#chord-0000001495578679" curvedir="below"/>
                                 </measure>
                                 <measure xml:id="measure-0000000863092480" n="119">
@@ -4755,7 +4759,8 @@
                                             </chord>
                                         </layer>
                                     </staff>
-                                </measure>
+                                    <slur xml:id="slur-0000000374201065" startid="#note-0000000379932169" endid="#note-0000000590209809" curvedir="below"/>
+                                  </measure>
                                 <measure xml:id="measure-0000001891624092" n="120">
                                     <staff xml:id="staff-0000001910283354" n="1">
                                         <layer xml:id="layer-0000001251808028" n="1">
@@ -4932,7 +4937,7 @@
                                         <layer xml:id="layer-0000000509112316" n="1">
                                             <mRest xml:id="mrest-0000001075845364"/>
                                             <clef xml:id="clef-0000000326061156" shape="G" line="2"/>
-                                              </layer>
+                                        </layer>
                                     </staff>
                                 </measure>
                                 <measure xml:id="measure-0000000108943909" n="126">
@@ -4965,7 +4970,7 @@
                                     <dynam xml:id="dynam-0000001417314204" place="below" staff="1" tstamp="2.000000" vgrp="40">sf</dynam>
                                     <tie xml:id="tie-0000001377779370" startid="#note-0000001069559171" endid="#note-0000001600345869"/>
                                     <tie xml:id="tie-0000000664728533" startid="#note-0000000460661824" endid="#note-0000000750359666"/>
-                                    <slur xml:id="slur-0000001534903530" startid="#note-0000000759631351" endid="#note-0000000750197665" curvedir="below"/>
+                                    <slur xml:id="slur-0000001534903530" startid="#note-0000000759631351" endid="#note-0000000408209839" curvedir="below"/>
                                 </measure>
                                 <measure xml:id="measure-0000000021705989" n="127">
                                     <staff xml:id="staff-0000000671795247" n="1">
@@ -5158,7 +5163,7 @@
                                 <measure xml:id="measure-0000000904342057" left="rptstart" metcon="false" n="133">
                                     <staff xml:id="staff-0000002076592335" n="1">
                                         <layer xml:id="layer-0000000383143301" n="1">
-                                            <rest xml:id="rest-0000001333486201" dur="8"/>
+                                            <rest xml:id="rest-0000001333486201" dur="8" oloc="5" ploc="a"/>
                                             <note xml:id="note-0000000763240115" dur="8" oct="5" pname="f" stem.dir="up" accid.ges="s"/>
                                         </layer>
                                         <layer xml:id="layer-0000000932047857" n="2">
@@ -5175,7 +5180,7 @@
                                     </staff>
                                     <tie xml:id="tie-0000001179474983" startid="#note-0000000763240115" endid="#note-0000000805232965"/>
                                     <slur xml:id="slur-0000000014493824" startid="#note-0000000763240115" endid="#note-0000000952088209" curvedir="above"/>
-                                    <slur xml:id="slur-0000000622072874" startid="#note-0000001182611381" endid="#note-0000001721589835" curvedir="below"/>
+                                    <slur xml:id="slur-0000000622072874" startid="#note-0000001182611381" endid="#note-0000001192301875" curvedir="below"/>
                                 </measure>
                                 <measure xml:id="measure-0000001228399722" n="134">
                                     <staff xml:id="staff-0000000183166554" n="1">
@@ -5307,7 +5312,7 @@
                                         </layer>
                                         <layer xml:id="layer-0000000233247789" n="2">
                                             <note xml:id="note-0000001037933948" dur="8" oct="3" pname="e" stem.dir="down"/>
-                                            <note xml:id="note-0000000546199455" dur="8" oct="4" pname="e" stem.dir="down"/>
+                                            <note xml:id="note-0000000546199455" dur="4" dots="1" oct="4" pname="e" stem.dir="down"/>
                                         </layer>
                                     </staff>
                                     <slur xml:id="slur-0000001802772355" startid="#note-0000001512096962" endid="#note-0000000348194962" curvedir="above"/>
@@ -5400,6 +5405,7 @@
                                                     <accid xml:id="accid-0000001576439361" accid="s"/>
                                                 </note>
                                             </beam>
+                                            <clef xml:id="clef-0000000512220699" shape="F" line="4"/>
                                         </layer>
                                         <layer xml:id="layer-0000001710587288" n="2">
                                             <note xml:id="note-0000001476967027" dur="2" oct="4" pname="a" stem.dir="up"/>
@@ -5434,7 +5440,6 @@
                                     </staff>
                                     <staff xml:id="staff-0000001451150354" n="2">
                                         <layer xml:id="layer-0000001778830917" n="1">
-                                            <clef xml:id="clef-0000000512220699" shape="F" line="4"/>
                                             <note xml:id="note-0000001691372132" dots="1" dur="4" oct="4" pname="e" stem.dir="up"/>
                                             <note xml:id="note-0000000365655065" dur="8" oct="4" pname="d" stem.dir="up">
                                                 <accid xml:id="accid-0000001613963388" accid="n"/>
@@ -9983,7 +9988,7 @@
                                         </beam>
                                     </layer>
                                 </staff>
-                                <turn xml:id="turn-0000001243234982" staff="1" tstamp="2" delayed="true" form="upper"/>
+                                <turn xml:id="turn-0000001243234982" staff="1" tstamp="2.000000" delayed="true" form="upper"/>
                                 <slur xml:id="slur-0000000486424574" startid="#note-0000000165221892" endid="#note-0000000861409177" curvedir="above"/>
                             </measure>
                             <measure xml:id="measure-0000000701018876" n="246">
