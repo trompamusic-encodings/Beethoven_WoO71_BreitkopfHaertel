@@ -9624,7 +9624,7 @@
                                     <slur xml:id="slur-0000001103022303" startid="#chord-0000000745366522" endid="#chord-0000001388611385" curvedir="above"/>
                                 </measure>
                             </section>
-                            <ending xml:id="Var-XI-B1" lendsym="angledown" n="1">
+                            <ending xml:id="Var-XI-B1" lendsym="angledown" n="1.">
                                 <measure xml:id="measure-0000000372198975" right="rptend" n="237">
                                     <staff xml:id="staff-0000002090727950" n="1">
                                         <layer xml:id="layer-0000001737223436" n="1">
@@ -9654,7 +9654,7 @@
                                     <tie xml:id="tie-0000001626682047" startid="#note-0000001819714482" tstamp2="0m+3.0000"/>
                                 </measure>
                             </ending>
-                            <ending xml:id="Var-XI-B2" lendsym="none" n="1">
+                            <ending xml:id="Var-XI-B2" lendsym="none" n="2.">
                                 <measure xml:id="measure-0000001772599361" right="dbl" metcon="false" n="237">
                                     <staff xml:id="staff-0000001966183225" n="1">
                                         <layer xml:id="layer-0000000163102539" n="1">
@@ -9703,6 +9703,7 @@
                                     </dir>
                                     <slur xml:id="slur-0000001657729809" startid="#note-0000001181912346" endid="#note-0000000218857760" curvedir="below"/>
                                     <fermata xml:id="fermata-0000001120817317" staff="2" startid="#chord-0000000429767854" form="norm" place="above"/>
+                                		<dir xml:id="dir-0000000056729759" staff="2" tstamp="3.5" place="below" >attacca il Allegro.</dir>
                                 </measure>
                             </ending>
                             <sb xml:id="sb-0000000617996462"/>
