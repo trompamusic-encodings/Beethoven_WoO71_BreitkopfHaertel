@@ -9700,7 +9700,6 @@
                                     </dir>
                                     <slur xml:id="slur-0000001657729809" startid="#note-0000001181912346" endid="#note-0000000218857760" curvedir="below"/>
                                     <fermata xml:id="fermata-0000001120817317" staff="2" startid="#chord-0000000429767854" form="norm" place="above"/>
-                                		<dir xml:id="dir-0000000056729759" staff="2" tstamp="3.5" place="below" >attacca il Allegro.</dir>
                                 </measure>
                             </ending>
                             <sb xml:id="sb-0000000617996462"/>
