@@ -9982,7 +9982,7 @@
                               </beam>
                            </layer>
                         </staff>
-                        <turn xml:id="turn-0000001243234982" staff="1" tstamp="2.000000" delayed="true" form="upper" />
+                        <turn xml:id="turn-0000001243234982" staff="1" tstamp="1.500000" delayed="true" form="upper" />
                         <slur xml:id="slur-0000000486424574" startid="#note-0000000165221892" endid="#note-0000000861409177" curvedir="above" />
                      </measure>
                      <measure xml:id="measure-0000000701018876" n="246">
