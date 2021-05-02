@@ -1,6 +1,11 @@
 ![TROMPA: Towards Richer Online Music Public-domain Archives](https://trompamusic.eu/sites/default/files/top-bar-logo_0_0.png)
                                                                                 
 # MEI encoding: 12 Variations on the Russian Dance from "Das Waldmädchen" (WoO 71) by Ludwig van Beethoven
+
+
+[![DOI](https://zenodo.org/badge/235275401.svg)](https://zenodo.org/badge/latestdoi/235275401)
+
+
                                                                                 
 This repository contains an [MEI](https://music-encoding.org) encoding of [12 Variations on the Russian Dance from "Das Waldmädchen" (WoO 71) by Ludwig van Beethoven, Breitkopf und Härtel edition, 1862–90. Plate B.170.](https://imslp.org/wiki/Special:ReverseLookup/53033) 
                                                                                 
