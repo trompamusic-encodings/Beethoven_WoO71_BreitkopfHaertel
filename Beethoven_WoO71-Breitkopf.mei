@@ -90,6 +90,7 @@
                      <expansion plist="#Tema-A #Tema-B #Tema-B" xml:id="expansion-Tema-default" />
                      <expansion plist="#Tema-A #Tema-B" xml:id="expansion-Tema-minimal" />
                      <section xml:id="Tema-A">
+                        <pb xml:id="pb-00000019128998321" />
                         <measure xml:id="measure-0000000184002306" metcon="false" n="0">
                            <staff xml:id="staff-0000000282283503" n="1">
                               <layer xml:id="layer-0000001912899819" n="1">
