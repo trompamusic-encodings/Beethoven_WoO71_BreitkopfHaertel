@@ -14153,7 +14153,8 @@
                                  </note>
                                  <note xml:id="note-0000001890449635" oct="4" pname="b" />
                               </chord>
-                              <mRest xml:id="mrest-0000000766458080" />
+                              <rest xml:id="mrest-0000000766458080" dur="8"/>
+                              <rest xml:id="mrest-0000000766458081" dur="4" dots="1"/>
                            </layer>
                         </staff>
                      </measure>
