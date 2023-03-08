@@ -8986,7 +8986,7 @@
                                  </beam>
                               </layer>
                            </staff>
-                           <tempo xml:id="tempo-0000001062259250" place="above" staff="1" tstamp="1.000000">
+                           <tempo xml:id="tempo-0000001062259250" place="above" staff="1" tstamp="1.000000" mm="92" mm.unit="4">
                               <rend xml:id="rend-0000001359657239" fontsize="100.00%" fontstyle="normal" fontweight="bold">Minore.</rend>
                            </tempo>
                            <tempo xml:id="tempo-0000001791613704" place="above" staff="1" tstamp="1.000000">
@@ -9686,9 +9686,9 @@
                               </layer>
                            </staff>
                            <fermata xml:id="fermata-0000001142295885" staff="1" startid="#chord-0000000473723102" form="norm" place="above" />
-                           <dir xml:id="dir-0000000253275487" place="above" staff="1" startid="#rest-0000001128558201">
+                           <tempo xml:id="dir-0000000253275487" place="above" staff="1" startid="#rest-0000001128558201" mm="60">
                               <rend xml:id="rend-0000000753473104" fontstyle="normal" fontweight="bold">adagio.</rend>
-                           </dir>
+                           </tempo>
                            <dir xml:id="dir-0000000253275488" place="below" staff="2" tstamp="3.330000">
                               <rend xml:id="rend-0000000753473105" fontstyle="normal" fontweight="normal">attacca il Allegro.</rend>
                            </dir>
@@ -9722,7 +9722,7 @@
                         <tempo xml:id="tempo-0000001798465263" place="above" staff="1" tstamp="1.000000">
                            <rend xml:id="rend-0000000973343716" fontsize="100.00%" fontstyle="normal" fontweight="bold">Maggiore.</rend>
                         </tempo>
-                        <tempo xml:id="tempo-0000001085961371" place="above" staff="1" tstamp="1.000000">Allegro.</tempo>
+                        <tempo xml:id="tempo-0000001085961371" place="above" staff="1" tstamp="1.000000" mm="120" mm.unit="4" mm.dots="1">Allegro.</tempo>
                         <tempo xml:id="tempo-0000001485883104" place="above" staff="1" tstamp="1.000000">
                            <rend xml:id="rend-0000000149997965" fontsize="125.00%" fontstyle="normal" fontweight="bold">Var. XII.</rend>
                         </tempo>
@@ -14153,8 +14153,7 @@
                                  </note>
                                  <note xml:id="note-0000001890449635" oct="4" pname="b" />
                               </chord>
-                              <rest xml:id="mrest-0000000766458080" dur="8"/>
-                              <rest xml:id="mrest-0000000766458081" dur="4" dots="1"/>
+                              <mRest xml:id="mrest-0000000766458080" />
                            </layer>
                         </staff>
                      </measure>
